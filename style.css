@@ -1,0 +1,77 @@
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 90% !important;
+}
+#top-images{
+    margin-top: 5%;
+}
+
+.top-images-box{
+    transform-style: preserve-3d;
+    position: absolute;
+    perspective: 600px;
+    transition: 0.10s;
+}
+#top-images2{
+    transform: rotateX(-15deg);
+    border-radius: 15%;    
+}
+.top-images-box:hover{
+    transform: rotateX("80deg");
+}
+.top-images-img:hover{
+    transform: rotateY(15deg);
+}
+
+.space{
+    height: 250px;
+}
+.border-active{
+    border-bottom: 6px solid #fc5a5a;
+}
+.filled-in{
+    color: #fc5a5a !important; 
+}
+.sub-img-box{
+    background-image: url("images/adult.jpg");
+}
+.sub-img-box-inner{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.main-inner{
+    position: absolute;
+    margin-top: 5%;
+}
+
+#first-desc{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+}
+.font{
+    font-family: 'Source Sans Pro', sans-serif!important;   
+    color: rgb(77, 76, 76); 
+}
+.embeded{
+    max-width: 300px;
+    max-height: 380px;
+    overflow-y: scroll;
+}
+.height-space{
+    height: 30px;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 2, 92);
+}
+
+.landing-footer{
+    height: 50px;
+}
