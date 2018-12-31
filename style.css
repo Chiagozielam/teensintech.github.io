@@ -72,6 +72,17 @@ body{
     background: rgb(56, 2, 92);
 }
 
+#insta-icon{
+    font-size: 70px;
+    margin-left: 50%;
+    color: rgb(46, 45, 45);
+    text-align: center!important;
+    transition: all .3s;
+}
+#insta-icon:hover{
+    color: rgb(238, 99, 125);
+}
+
 .landing-footer{
     height: 50px;
 }
